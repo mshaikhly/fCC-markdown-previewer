@@ -1,0 +1,33 @@
+.theme-toggler-container {
+  display: flex;
+  align-items: center;
+}
+
+
+body.dark-mode {
+  background-color: #343a40;
+  color: #ffffff;
+}
+
+textarea.dark-mode {
+  background-color: #495057;
+  color: #ffffff;
+}
+
+.card.dark-mode {
+  background-color: #495057;
+  color: #ffffff;
+}
+
+button.dark-mode {
+  background-color: #495057;
+  color: #ffffff;
+}
+
+button.dark-mode:hover {
+  background-color: #6c757d;
+}
+
+img {
+  max-width: 100%;
+}
