@@ -12,7 +12,10 @@ const MarkdownPreview = () => {
   };
 
   return (
-    <div id="preview" className={`${isDarkMode ? 'dark-mode' : ''}`} dangerouslySetInnerHTML={getMarkdownText()} />
+    <>
+      <h1>Preview</h1>
+      <div id="preview" className={`${isDarkMode ? 'dark-mode' : ''}`} dangerouslySetInnerHTML={getMarkdownText()} />
+    </>
   );
 };
 
